@@ -1,0 +1,9 @@
+---
+applications:
+  - name: reguser
+    memory: 512M
+    disk_quota: 1024M
+    instance: 1
+    buildpack: staticfile_buildpack
+    path: /Register/
+    route: reguser
